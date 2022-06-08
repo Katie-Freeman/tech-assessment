@@ -69,11 +69,11 @@ li {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 8px 18px 1px #cff7fec5;
-    transition: box-shadow .5s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 li:hover {
-    transform: translateY(5px);
+    transform: translateY(-2px);
     box-shadow: 0px 10px 20px 2px #b7edf7ae;
 }
 
@@ -96,11 +96,13 @@ button {
     width: 150px;
     height: 50px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    transition: box-shadow .5s ease-in-out;
+    transition: .2s ease-in-out;
+    margin: 2em 0;
 }
 
 button:hover {
-    transform: translateY(5px);
+    cursor: pointer;
+    transform: translateY(-2px);
     box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 </style>
